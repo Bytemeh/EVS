@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Academic year"
+        android:textSize="20sp"
+        android:layout_margin="10sp"
+        android:textColor="@android:color/black"/>
+
+    <Spinner
+        android:id="@+id/academicyYearspinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Program"
+        android:textSize="20sp"
+        android:layout_margin="10sp"
+        android:textColor="@android:color/black"/>
+
+    <Spinner
+        android:id="@+id/programAutoComplete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Program"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="44dp"
+        android:layout_margin="10sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Year of study"
+        android:textSize="20sp"
+        android:layout_margin="10sp"
+        android:textColor="@android:color/black"
+        />
+
+
+    <Spinner
+        android:id="@+id/yearOfStudySpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cursorVisible="true"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="44dp"
+        android:layout_margin="10sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Course code"
+        android:textSize="20sp"
+        android:layout_margin="10sp"
+        android:textColor="@android:color/black"
+        />
+
+
+    <Spinner
+        android:id="@+id/courseCodeautoComplete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cursorVisible="true"
+        android:hint="Course code"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="44dp"
+        android:layout_margin="10sp"
+        />
+
+
+
+
+
+    <Button
+        android:id="@+id/startVerificicationButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:text="START VERIFICATION"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+</LinearLayout>
